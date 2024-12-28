@@ -1,0 +1,27 @@
+
+body{
+  background-color:rgb(36, 31, 31)!important;
+  min-height: 100vh;
+ 
+}
+
+input:focus{
+  background-color: gray !important;
+}
+
+.result ul li{
+  border:2px dotted red;
+  padding:5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:white;
+  list-style-type: none;
+
+}
+.result ul li button{
+  padding:10px;
+  border-radius: 1.5rem;
+  margin-inline:4px;
+}
+.heightContainer{
+  min-height: 100vh;
+}
